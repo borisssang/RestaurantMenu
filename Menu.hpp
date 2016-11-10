@@ -11,4 +11,21 @@
 
 #include <stdio.h>
 
+class Menu{
+private:
+    double price;
+    double deliveryTime;
+    double weight;
+    
+public:
+    Menu();
+    Menu(double price, double deliveryTime, double weight);
+    virtual double getPrice();
+    virtual double getDeliveryTime();
+    virtual double getWeight();
+    
+};
+
+
+
 #endif /* Menu_hpp */
