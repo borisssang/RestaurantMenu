@@ -19,6 +19,7 @@ We are going to implement sorting algorithms for Price,
 EstimatedTime and Weight. Boris is going to make MergeSort
 (O(nlogn)) for the Food and Plamen is going to make QuickSort
 (O(nlogn)) for the Drinks.
+
 Hierarchy:
 Parent abstract class Menu. Classes Foods and Drinks are going to
 inherit Menu. Food is going to be inherited by Soups, MainCourse
