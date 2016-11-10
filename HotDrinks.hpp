@@ -1,16 +1,14 @@
 //
-//  main.cpp
+//  HotDrinks.hpp
 //  RestaurantMenu
 //
 //  Created by Boris Angelov on 11/10/16.
 //  Copyright © 2016 Boris Angelov. All rights reserved.
 //
 
-#include <iostream>
+#ifndef HotDrinks_hpp
+#define HotDrinks_hpp
 
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    
-    
-}
+#endif /* HotDrinks_hpp */

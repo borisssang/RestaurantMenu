@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0553E0551DD4EFC1006CF54F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0541DD4EFC1006CF54F /* main.cpp */; };
+		0553E05D1DD4F1FE006CF54F /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E05B1DD4F1FE006CF54F /* Menu.cpp */; };
+		0553E0601DD4F214006CF54F /* Food.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E05E1DD4F214006CF54F /* Food.cpp */; };
+		0553E0631DD4F285006CF54F /* Drinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0611DD4F285006CF54F /* Drinks.cpp */; };
+		0553E0661DD4F9A4006CF54F /* Soups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0641DD4F9A4006CF54F /* Soups.cpp */; };
+		0553E0691DD4F9B7006CF54F /* MainCourse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0671DD4F9B7006CF54F /* MainCourse.cpp */; };
+		0553E06C1DD4F9D3006CF54F /* Desert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E06A1DD4F9D3006CF54F /* Desert.cpp */; };
+		0553E06F1DD4FA05006CF54F /* SoftDrinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E06D1DD4FA05006CF54F /* SoftDrinks.cpp */; };
+		0553E0721DD4FA1F006CF54F /* HotDrinks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0701DD4FA1F006CF54F /* HotDrinks.cpp */; };
+		0553E0751DD4FA2B006CF54F /* Alcohol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0553E0731DD4FA2B006CF54F /* Alcohol.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,24 @@
 /* Begin PBXFileReference section */
 		0553E0511DD4EFC1006CF54F /* RestaurantMenu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RestaurantMenu; sourceTree = BUILT_PRODUCTS_DIR; };
 		0553E0541DD4EFC1006CF54F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0553E05B1DD4F1FE006CF54F /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		0553E05C1DD4F1FE006CF54F /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		0553E05E1DD4F214006CF54F /* Food.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Food.cpp; sourceTree = "<group>"; };
+		0553E05F1DD4F214006CF54F /* Food.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Food.hpp; sourceTree = "<group>"; };
+		0553E0611DD4F285006CF54F /* Drinks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drinks.cpp; sourceTree = "<group>"; };
+		0553E0621DD4F285006CF54F /* Drinks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Drinks.hpp; sourceTree = "<group>"; };
+		0553E0641DD4F9A4006CF54F /* Soups.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Soups.cpp; sourceTree = "<group>"; };
+		0553E0651DD4F9A4006CF54F /* Soups.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Soups.hpp; sourceTree = "<group>"; };
+		0553E0671DD4F9B7006CF54F /* MainCourse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainCourse.cpp; sourceTree = "<group>"; };
+		0553E0681DD4F9B7006CF54F /* MainCourse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainCourse.hpp; sourceTree = "<group>"; };
+		0553E06A1DD4F9D3006CF54F /* Desert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Desert.cpp; sourceTree = "<group>"; };
+		0553E06B1DD4F9D3006CF54F /* Desert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Desert.hpp; sourceTree = "<group>"; };
+		0553E06D1DD4FA05006CF54F /* SoftDrinks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoftDrinks.cpp; sourceTree = "<group>"; };
+		0553E06E1DD4FA05006CF54F /* SoftDrinks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoftDrinks.hpp; sourceTree = "<group>"; };
+		0553E0701DD4FA1F006CF54F /* HotDrinks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HotDrinks.cpp; sourceTree = "<group>"; };
+		0553E0711DD4FA1F006CF54F /* HotDrinks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HotDrinks.hpp; sourceTree = "<group>"; };
+		0553E0731DD4FA2B006CF54F /* Alcohol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Alcohol.cpp; sourceTree = "<group>"; };
+		0553E0741DD4FA2B006CF54F /* Alcohol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Alcohol.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +68,24 @@
 		0553E0481DD4EFC1006CF54F = {
 			isa = PBXGroup;
 			children = (
+				0553E0731DD4FA2B006CF54F /* Alcohol.cpp */,
+				0553E0741DD4FA2B006CF54F /* Alcohol.hpp */,
+				0553E0701DD4FA1F006CF54F /* HotDrinks.cpp */,
+				0553E0711DD4FA1F006CF54F /* HotDrinks.hpp */,
+				0553E06D1DD4FA05006CF54F /* SoftDrinks.cpp */,
+				0553E06E1DD4FA05006CF54F /* SoftDrinks.hpp */,
+				0553E06A1DD4F9D3006CF54F /* Desert.cpp */,
+				0553E06B1DD4F9D3006CF54F /* Desert.hpp */,
+				0553E0671DD4F9B7006CF54F /* MainCourse.cpp */,
+				0553E0681DD4F9B7006CF54F /* MainCourse.hpp */,
+				0553E0641DD4F9A4006CF54F /* Soups.cpp */,
+				0553E0651DD4F9A4006CF54F /* Soups.hpp */,
+				0553E0611DD4F285006CF54F /* Drinks.cpp */,
+				0553E0621DD4F285006CF54F /* Drinks.hpp */,
+				0553E05E1DD4F214006CF54F /* Food.cpp */,
+				0553E05F1DD4F214006CF54F /* Food.hpp */,
+				0553E05B1DD4F1FE006CF54F /* Menu.cpp */,
+				0553E05C1DD4F1FE006CF54F /* Menu.hpp */,
 				0553E0531DD4EFC1006CF54F /* RestaurantMenu */,
 				0553E0521DD4EFC1006CF54F /* Products */,
 			);
@@ -119,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0553E06C1DD4F9D3006CF54F /* Desert.cpp in Sources */,
+				0553E0601DD4F214006CF54F /* Food.cpp in Sources */,
+				0553E05D1DD4F1FE006CF54F /* Menu.cpp in Sources */,
+				0553E0631DD4F285006CF54F /* Drinks.cpp in Sources */,
+				0553E0721DD4FA1F006CF54F /* HotDrinks.cpp in Sources */,
 				0553E0551DD4EFC1006CF54F /* main.cpp in Sources */,
+				0553E0751DD4FA2B006CF54F /* Alcohol.cpp in Sources */,
+				0553E0661DD4F9A4006CF54F /* Soups.cpp in Sources */,
+				0553E06F1DD4FA05006CF54F /* SoftDrinks.cpp in Sources */,
+				0553E0691DD4F9B7006CF54F /* MainCourse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +300,7 @@
 				0553E05A1DD4EFC1006CF54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

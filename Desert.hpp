@@ -1,16 +1,14 @@
 //
-//  main.cpp
+//  Desert.hpp
 //  RestaurantMenu
 //
 //  Created by Boris Angelov on 11/10/16.
 //  Copyright © 2016 Boris Angelov. All rights reserved.
 //
 
-#include <iostream>
+#ifndef Desert_hpp
+#define Desert_hpp
 
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    
-    
-}
+#endif /* Desert_hpp */

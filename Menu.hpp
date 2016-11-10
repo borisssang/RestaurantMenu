@@ -1,16 +1,14 @@
 //
-//  main.cpp
+//  Menu.hpp
 //  RestaurantMenu
 //
 //  Created by Boris Angelov on 11/10/16.
 //  Copyright © 2016 Boris Angelov. All rights reserved.
 //
 
-#include <iostream>
+#ifndef Menu_hpp
+#define Menu_hpp
 
-using namespace std;
+#include <stdio.h>
 
-int main() {
-    
-    
-}
+#endif /* Menu_hpp */
